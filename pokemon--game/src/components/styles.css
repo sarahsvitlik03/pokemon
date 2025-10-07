@@ -1,0 +1,57 @@
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 170px;
+}
+
+.card img {
+    width: 100px;
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    padding: 10px;
+}
+
+.grid button {
+  border: 3px solid #f7f29f;  
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('./PocketMonk-15ze.ttf') format('truetype');
+  }
+  
+.nav {
+    display: flex;    
+    gap: 50px;
+    padding-bottom: 20px;
+}
+  
+.title {
+  font-size: 50px;
+  font-family: 'PokemonSolid';
+  color: #000000;
+}
+  
+p {
+  font-size: 25px;
+  font-family: 'PokemonSolid';
+  color: #0066CC;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+  
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

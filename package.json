@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sarahsvitlik03.github.io/pokemon",
+  "homepage": "https://sarahsvitlik03.github.io/pokemon/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

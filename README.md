@@ -3,7 +3,6 @@ A minimalist React app scaffolded with Vite, featuring hot module replacement (H
 
 <img width="654" height="767" alt="Screenshot 2025-10-16 at 1 34 47 PM" src="https://github.com/user-attachments/assets/11c99808-82dc-4870-a225-91187e8ca99e" />
 
-
 # 📦 Tech Stack 
 
 React 19 - UI framework

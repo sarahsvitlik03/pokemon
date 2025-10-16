@@ -1,16 +1,42 @@
-# React + Vite
+# 🧠 Memory — React + Vite
+A minimalist React app scaffolded with Vite, featuring hot module replacement (HMR), ESLint integration, and GitHub Pages deployment. This project powers a Pokémon-themed interface using pokemon-assets.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📦 Tech Stack 
 
-Currently, two official plugins are available:
+React 19 - UI framework
+Vite 7 -	Build tool and dev server
+ESLint - Linting and code quality
+@vitejs/plugin-react - Babel-based Fast Refresh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🛠️ Scripts
 
-## React Compiler
+npm run dev	Start local dev server
+npm run build	Build for production (outputs to dist/)
+npm run preview	Preview production build locally
+npm run lint	Run ESLint across the project
+npm run deploy	Build and deploy to GitHub Pages
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🌍 Deployment
 
-## Expanding the ESLint configuration
+This app is currently run locally using the Vite development server: npm run dev
+This starts a local server with hot module replacement (HMR) for development. You can access the app at: http://localhost:5173/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 🛠️ Scripts
+
+eslint-plugin-react-hooks
+eslint-plugin-react-refresh
+@eslint/js with globals
+
+# 📁 Folder Structure
+
+memory/
+├── public/
+├── src/
+│   └── main.jsx
+|   └── assets/
+|   └── components/
+├── dist/          # Production build output
+├── package.json
+├── vite.config.js
+└── README.md

@@ -27,16 +27,3 @@ This starts a local server with hot module replacement (HMR) for development. Yo
 eslint-plugin-react-hooks
 eslint-plugin-react-refresh
 @eslint/js with globals
-
-# 📁 Folder Structure
-
-memory/
-├── public/
-├── src/
-│   └── main.jsx
-|   └── assets/
-|   └── components/
-├── dist/          # Production build output
-├── package.json
-├── vite.config.js
-└── README.md

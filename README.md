@@ -1,4 +1,4 @@
-# 🧠 Memory — React + Vite
+# 🧠 Pokemon Memroy Game — React + Vite
 A minimalist React app scaffolded with Vite, featuring hot module replacement (HMR), ESLint integration, and GitHub Pages deployment. This project powers a Pokémon-themed interface using pokemon-assets.
 
 # 📦 Tech Stack 

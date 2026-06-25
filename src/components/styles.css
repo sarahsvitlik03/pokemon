@@ -36,6 +36,7 @@
   font-size: 50px;
   font-family: 'PokemonSolid';
   color: #000000;
+  -webkit-text-fill-color: #000000;
 }
   
 p {
@@ -45,9 +46,13 @@ p {
   text-decoration: underline;
 }
 
-body {
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
+  color-scheme: light only;
 }
   
 .card:hover {

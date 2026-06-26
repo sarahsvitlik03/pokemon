@@ -35,7 +35,7 @@ const MemoryGrid = () => {
   return (
 
 
-    <div> 
+    <div className="game"> 
     <nav className="nav"> 
       <div className="title">
       Pokemon Memory Game
@@ -47,7 +47,7 @@ const MemoryGrid = () => {
     <div className="grid">
       {shuffledPokemon.map(pokemon => (
         <button key={pokemon.name} onClick= {() => handleClick(pokemon.name)} className="card">
-        <img src={pokemon.image} alt={pokemon.name} className="card"/>
+        <img src={pokemon.image} alt={pokemon.name} className="card-image"/>
         </button>
       ))}
     </div>

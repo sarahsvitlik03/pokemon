@@ -22,8 +22,7 @@ a:hover {
   color: #747bff;
 }
 
-html,
-body {
+html {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -32,8 +31,13 @@ body {
 }
 
 body {
+  margin: 0;
   display: flex;
+  justify-content: center;
   place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff;
 }
 
 h1 {

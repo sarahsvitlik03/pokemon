@@ -27,6 +27,19 @@
   border: 3px solid #f7f29f;  
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.grid button:hover,
+.grid button:focus,
+.grid button:active {
+  border-color: #f7f29f;
+  outline: none;
+}
+
+.grid button:focus-visible {
+  outline: 2px solid #0066CC;
+  outline-offset: 2px;
 }
 
 @font-face {
